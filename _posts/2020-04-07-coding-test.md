@@ -11,9 +11,7 @@
 - 10 -> 16진 String변환 Integer.toHexString(i);
 - 2, 8, 16진수 -> 10진수 변환시 Integer.partInt(i, (2 or 8 or 16));
 
-3. 문제 요약  - 아래 참고 링크 확인
-----
-#비밀지도
+3. 문제 요약  - 비밀지도 : 아래 참고 링크 확인
 - 지도는 한 변의 길이가### n
 인 정사각형 배열 형태로, 각 칸은“공백”(““) 또는”벽“(”#”) 두 종류로 이루어져 있다.
 - 전체 지도는 두 장의 지도를 겹쳐서 얻을 수 있다. 각각“지도 1”과“지도 2”라고 하자. 지도 1 또는 지도 2 중 어느 하나라도 벽인 부분은 전체 지도에서도 벽이다. 지도 1과 지도 2에서 모두 공백인 부분은 전체 지도에서도 공백이다.
@@ -48,9 +46,9 @@ ex. 010111이 출력되어야하는데  맨 앞이 0인 경우 10111로 출력
 - 정수를 이진으로 변환하는 방법을 검색했는데 어떤 사람은 값을 1이 남을때까지 2로 나눠 나머지를 배열에 저장 후  값을 역순으로 출력해 찐 2진수 구하는 방법을 구현해서 2진 값을 구했다. 오랜만이네.. 이거 계산하는거 ~
 
 7. 참고  
-[카카오 신입 공채 1차 코딩 테스트 문제 해설 – tech.kakao.com](https://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/)
-[코딩벌레 :: Java자바 진수변환(10진수->2진수,8진수,16진수)](https://dpdpwl.tistory.com/92)
-[Java 연산자 비트연산자 & 쉬프트 연산자 (Bit & shift operator) : 네이버 블로그](http://blog.naver.com/PostView.nhn?blogId=choigohot&logNo=40193772915)
-[java - 배열에 새로운 원소를 추가하려면 어떻게 해야하죠? | Hashcode](https://hashcode.co.kr/questions/1028/%EB%B0%B0%EC%97%B4%EC%97%90-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9B%90%EC%86%8C%EB%A5%BC-%EC%B6%94%EA%B0%80%ED%95%98%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC%ED%95%98%EC%A3%A0)
+[카카오 신입 공채 1차 코딩 테스트 문제 해설 – tech.kakao.com](https://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/)  
+[코딩벌레 :: Java자바 진수변환(10진수->2진수,8진수,16진수)](https://dpdpwl.tistory.com/92)  
+[Java 연산자 비트연산자 & 쉬프트 연산자 (Bit & shift operator) : 네이버 블로그](http://blog.naver.com/PostView.nhn?blogId=choigohot&logNo=40193772915)  
+[java - 배열에 새로운 원소를 추가하려면 어떻게 해야하죠? | Hashcode](https://hashcode.co.kr/questions/1028/%EB%B0%B0%EC%97%B4%EC%97%90-%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9B%90%EC%86%8C%EB%A5%BC-%EC%B6%94%EA%B0%80%ED%95%98%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC%ED%95%98%EC%A3%A0)  
 [Java - convert int to binary String with leading zeros - DirAsk](https://dirask.com/q/java-convert-int-to-binary-string-with-leading-zeros-OpBXq1)
 
